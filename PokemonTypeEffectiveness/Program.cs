@@ -42,8 +42,8 @@ namespace PokemonTypeEffectiveness
                 if (result.Strengths.Any())
                 {
                     Console.WriteLine("\n Strengths:");
-                    foreach (var s in result.Strengths)
-                        Console.WriteLine($" - {s}");
+                    foreach (var strength in result.Strengths)
+                        Console.WriteLine($" - {strength}");
                 }
                 else
                 {
@@ -53,8 +53,8 @@ namespace PokemonTypeEffectiveness
                 if (result.Weaknesses.Any())
                 {
                     Console.WriteLine("\n Weaknesses:");
-                    foreach (var w in result.Weaknesses)
-                        Console.WriteLine($" - {w}");
+                    foreach (var weakness in result.Weaknesses)
+                        Console.WriteLine($" - {weakness}");
                 }
                 else
                 {
