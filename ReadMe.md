@@ -30,29 +30,14 @@ dotnet build
 # Run the console application
 cd .\PokemonTypeEffectiveness\ 
 dotnet run
+
 ```
-
-### Running Tests
-``` 
-# Run all unit tests
-dotnet test  
-``` 
----
-
-## Usage
-
-1. **Start the application**:
-   ``` 
-   dotnet run
-   ```
-
-2. **Enter a Pokemon name** when prompted:
+**Example Usage - Enter a Pokemon name** when prompted:
    ```
    Enter a Pokemon name:
    ditto
    ```
-
-3. **View the results**:
+ **View the results**:
    ```
      Results for DITTO:
 
@@ -66,6 +51,13 @@ dotnet test
  	- steel
 
    ```  
+
+### Running Tests
+``` 
+# Run all unit tests
+dotnet test  
+``` 
+--- 
 
 ```
 ## Project Structure 
