@@ -28,6 +28,7 @@ dotnet restore
 dotnet build
 
 # Run the console application
+cd .\PokemonTypeEffectiveness\ 
 dotnet run
 ```
 
